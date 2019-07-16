@@ -10,6 +10,7 @@ export default function Greeting() {
 
   return (
     <section >
+      <h1>***React Hook Demo***</h1>
       <Row label="Name">
         <input value = {name} onChange={handleNameChange} />
       </Row>

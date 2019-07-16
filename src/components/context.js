@@ -5,8 +5,8 @@ export const theme = {
 };
 
 export const locale = {
-  rainbow: 'DE 🌈'
+  de: 'DE 🌈'
 };
 
 export const ThemeContext = React.createContext(theme.golden);
-export const LocaleContext = React.createContext(locale.rainbow);
+export const LocaleContext = React.createContext(locale.de);
